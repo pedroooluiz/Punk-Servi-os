@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punk Serviços/ajuda</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styleAjuda.css">
+
+    <header class="header"> <!-- Inicio cabeçalho -->
+        <h1>Punk Serviços</h1>
+        <nav id="nav">
+
+            <ul class="menu">
+                <li><a href="./index.html"><strong>Home</strong></a></li>
+                <li><a href="./catalogo.html"><strong>Catálogo</strong></a></li>
+                <li><a href="./tabela-de-precos.html"><strong>Tabela de preços</strong></a></li>
+                <li><a href="./Sobre.html"><strong>Sobre</strong></a></li>
+                <li><a class="formatacoaA" href="#"><strong>Ajuda</strong></a></li>
+            </ul>
+
+        </nav>
+    </header> <!-- Final cabeçalho -->
+
+</head>
+<body>
+
+    <h2>Ajuda</h2>
+    <p>
+        Digite problema para que possamos melhorar nosso sistema cada vez mais.
+    </p>
+
+    <p>
+        Os dados de nome, email e telefone é para que possamos entrar em contato para avisar que já está tudo
+        ok, obrigado pela compreensão!
+    </p>
+
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Digite sua dúvida e seus dados</b></legend>
+                <br/>
+                <div class="input-box">
+                    <input type="text" name="problema" id="problema" class="inputProblem" required>
+                    <label for="problem" class="labelInput">Dite o seu problema</label>
+                </div>
+                
+                <br>
+                <br>
+
+                <div class="input-box">
+                    <input type="text" name="nome" id="nome" class="inputProblem" required>
+                    <label for="name" class="labelInput">Nome completo</label>
+                </div>
+                
+                <br>
+                <br>
+
+                <div class="input-box">
+                    <input type="email" name="email" id="email" class="inputProblem" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="input-box">
+                    <input type="tel" name="telefone" id="telefone" class="inputProblem" required>
+                    <label for="telefone" class="labelInput">Telefone com DDD</label>
+                </div>
+
+                <br>
+
+                <h4>Sexo:</h4>
+                <input type="radio" id="feminino" name="genero" value="feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="outros" name="genero" value="outros">
+                <label for="outros">Outros</label>
+
+                <br>
+                <br>
+
+                <div class="input-box">
+                    <label for="data_nascimento"><b>Data de nascimento</b></label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" class="inputProblem">
+                </div>
+
+                <br>
+                <br>
+
+                <div class="input-box">
+                    <input type="text" name="cidade" id="cidade" class="inputProblem">
+                    <label for="cidade" class="labelInput">Cidade</label>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="input-box">
+                    <input type="text" name="estado" id="estado" class="inputProblem">
+                    <label for="estado" class="labelInput">Estado</label>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="input-box">
+                    <input type="text" name="cep" id="cep" class="inputProblem">
+                    <label for="cep" class="labelInput">CEP</label>
+                </div>
+
+                <br>
+                <br>
+                
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+
+    <p>
+        Desde de já agradecemos, equipe Punk Serviços.
+    </p>
+
+</body>
+</html>
