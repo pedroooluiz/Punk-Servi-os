@@ -1,0 +1,24 @@
+table{
+    font-family: 'Oswald', sans-serif; 
+    color: white;
+    font-size: 20px;
+    margin: auto;   
+}
+
+table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th{
+    background-color: black;
+    font-size: 30px;
+}
+
+.tabela:hover{
+    background-color: blueviolet;
+}
