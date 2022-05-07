@@ -1,0 +1,36 @@
+.centro-distribuicao{
+    text-align: center;
+}
+
+.centro-distribuicao img{
+    width: 1000px;
+}
+
+figcaption{
+    color: white;
+    font-size: 20px;
+}
+
+.fundadores img{
+    float:right;
+    border-radius: 50px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 1000px;
+}
+
+.midia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding: auto;
+}
