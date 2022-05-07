@@ -1,0 +1,31 @@
+.ul{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 60px;
+    letter-spacing: 1px;
+}
+
+figure img{
+    float: right;
+    width: 350px;
+    height: 350px;
+    padding: 2px;
+    border: 1px solid blueviolet;
+}
+
+.contador{
+    float: right;
+    width: 250px;
+    height: 350px;
+    padding: 2px;
+    border: 1px solid blueviolet;
+}
+
+.politico{
+    float: right;
+    width: 450px;
+    height: 350px;
+    padding: 2px;
+    border: 1px solid blueviolet;
+}
